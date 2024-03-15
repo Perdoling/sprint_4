@@ -2,21 +2,17 @@
     "tasks": [
         {
             "type": "cppbuild",
-            "label": "C/C++: g++.exe build active file",
+            "label": "Rabotai",
             "command": "D:/dev/mingw64/bin/g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "document.cpp",
-                "read_input_functions.cpp",
-                "request_queue.cpp",
-                "search_server.cpp",
-                "string_processing.cpp",
+                "*.cpp",
                 "-o",
-                "${workspaceFolder}\\server.exe"
+                "server.exe"
             ],
             "options": {
-                "cwd": "{workspaceFolder}"
+                "cwd": "${workspaceFolder}"
             },
             "problemMatcher": [
                 "$gcc"

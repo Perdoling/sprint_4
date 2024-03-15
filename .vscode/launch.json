@@ -1,7 +1,7 @@
 {
   "version": "0.2.0",
   "configurations": [
-    {
+    { "preLaunchTask": "Rabotai",
       "name": "C/C++ Runner: Debug Session",
       "type": "cppdbg",
       "request": "launch",
