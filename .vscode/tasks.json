@@ -7,12 +7,16 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}",
+                "document.cpp",
+                "read_input_functions.cpp",
+                "request_queue.cpp",
+                "search_server.cpp",
+                "string_processing.cpp",
                 "-o",
-                "${fileDirname}\\${fileBasenameNoExtension}.exe"
+                "${workspaceFolder}\\server.exe"
             ],
             "options": {
-                "cwd": "D:/dev/mingw64/bin"
+                "cwd": "{workspaceFolder}"
             },
             "problemMatcher": [
                 "$gcc"

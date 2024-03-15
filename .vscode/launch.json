@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/Project/sprint_4",
-      "program": "d:/Project/sprint_4/build/Debug/outDebug",
+      "cwd": "${workspaceFolder}",
+      "program": "${workspaceFolder}\\server.exe",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
