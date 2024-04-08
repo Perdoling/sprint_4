@@ -7,8 +7,7 @@ class IteratorRange {
     public:
     IteratorRange(Iterator& it_begin,Iterator it_end) 
     :begin_(it_begin),
-    end_(it_end),
-    size_page_(distance(it_begin, it_end))
+    end_(it_end)
     {
     }
     Iterator begin() const {
@@ -20,12 +19,12 @@ class IteratorRange {
     }
 
     std::size_t size() const {
-        return size_page_;
+        return (distance( begin_, end_));
     }
 
     private:
-    Iterator begin_, end_;
-    std::size_t size_page_;
+    Iterator begin_, 
+             end_;
 
 };
 
